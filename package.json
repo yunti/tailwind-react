@@ -17,9 +17,9 @@
     "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start:css": "postcss src/css/tailwind.css -o src/css/main.css",
-    "build:css": "env NODE_ENV=production postcss src/css/tailwind.css -o src/css/main.css",
-    "watch:css": "postcss src/css/tailwind.css -o src/css/main.css --watch"
+    "start:css": "tailwind build src/css/tailwind.css -o src/css/main.css",
+    "build:css": "env NODE_ENV=production tailwind build src/css/tailwind.css -o src/css/main.css",
+    "watch:css": "tailwind build src/css/tailwind.css -o src/css/main.css --watch"
   },
   "eslintConfig": {
     "extends": "react-app"
