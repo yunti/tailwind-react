@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# tailwind generated css file
+/src/css/main.css
+
+# vim swap files
+*.swp
+*.swo
