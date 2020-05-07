@@ -16,7 +16,7 @@
   },
   "scripts": {
     "watch:css": "postcss src/css/tailwind.css -o src/css/main.css --watch",
-    "start:css": "tailwind build src/css/tailwind.css -o src/css/main.css",
+    "start:css": "tailwindcss build src/css/tailwind.css -o src/css/main.css",
     "build:css": "env NODE_ENV=production tailwind build src/css/tailwind.css -o src/css/main.css",
     "start": "run-p watch:css start:react",
     "start:react": "react-scripts start",
