@@ -28,3 +28,6 @@ yarn-error.log*
 # vim swap files
 *.swp
 *.swo
+
+# editor files
+.idea/
