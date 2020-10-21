@@ -1,6 +1,7 @@
-Create via Create React App and tailwind css
-Ready for production using purgecss (integrated with tailwind css >1.4)
+## Starter template for Tailwind and React
 
+Combining the best of tailwindcss and create react app
+Ready for production using purgecss (integrated with tailwind css >1.4)
 
 
 
