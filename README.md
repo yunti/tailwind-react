@@ -5,8 +5,6 @@ Ready for production using purgecss (integrated with tailwind css >1.4)
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
